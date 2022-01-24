@@ -2,13 +2,18 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {Col, Row} from "antd";
-import Landing from "../src/components/landing";
+import dynamic from "next/dist/next-server/lib/dynamic";
+
+
+const LandingPage = dynamic(
+    () => import("../src/components/landing.jsx"),
+    { ssr: false })
 
 export default function Home() {
   return (
 <div>
 
-    <Row  >
+    <Row >
         <Col style={{backgroundColor:"#002d2d"}} xs={0} sm={2} md={2} lg={4} xl={6} >col-8</Col>
         <Col xs={24} sm={20} md={20} lg={16} xl={12} >
             <div
@@ -26,8 +31,7 @@ export default function Home() {
                 }}
             >
 
-
-            <Landing></Landing>
+            <LandingPage></LandingPage>
 
             </div>
 
