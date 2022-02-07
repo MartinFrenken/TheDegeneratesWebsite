@@ -11,7 +11,7 @@ export default function Utilities(props) {
 
         <Utility imageIcon ="/utility_icons/passive_income.png"
                      title ="Passive Income"
-                 text ="You will earn truly passive income with this NFT. Around 80% of the money will be invested into mining cryptocurrencies using ASIC miners! We expect a ROI of 1 year. So it’s really risk-free. We will also be fully transparent about what the costs are. All the information will be posted in our discord TRUST channel.
+                    text ="You will earn truly passive income with this NFT. Around 80% of the money will be invested into mining cryptocurrencies using ASIC miners! We expect a ROI of 1 year. So it’s really risk-free. We will also be fully transparent about what the costs are. All the information will be posted in our discord TRUST channel.
 " >
         </Utility>
 

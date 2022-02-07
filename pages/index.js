@@ -6,6 +6,7 @@ import dynamic from "next/dist/next-server/lib/dynamic";
 import Utility from "../src/components/utility";
 import Utilities from "../src/components/utilities";
 import PageFrame from "../src/components/structure/pageframe";
+import PictureTitle from "../src/components/picturetitle";
 
 
 const LandingPage = dynamic(
@@ -21,8 +22,22 @@ export default function Home() {
 
         </LandingPage>
     </PageFrame>
-    <PageFrame backgroundImage={"wallpaper/utilities_wallpaper.png"} height={2000}>
-        <Utilities></Utilities>
+    <PageFrame backgroundImage={"wallpaper/the_mint.png"} height={558}>
+        <PictureTitle
+            width ={129}
+            height ={67}
+            imageURL={"title_texts/the_top.png"} text={"MINT"}
+            lineHeight = {"60px"}
+
+        />
+    </PageFrame>
+    <PageFrame backgroundImage={"wallpaper/utilities_wallpaper.png"} height={2500}>
+        <PictureTitle
+            width ={318}
+            height ={60}
+            lineHeight={"52px"}
+            imageURL={"title_texts/title_benefits.png"} text={"AND UTILITIES"} />
+        <Utilities ></Utilities>
     </PageFrame>
 
     <></>

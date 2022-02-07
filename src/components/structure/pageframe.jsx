@@ -5,7 +5,10 @@ export default function PageFrame(props) {
 
     return <>
         <Row >
-            <Col style={{backgroundColor:"#002d2d"}} xs={0} sm={2} md={2} lg={4} xl={6} >col-8</Col>
+            <Col style={{backgroundColor:"black",overflow:"visible"}} xs={0} sm={2} md={2} lg={4} xl={6} >
+                <img style={{width:100,height:props.height,
+                    float:"right", left:100,position:"relative", zIndex:1}} src={"fades/fade_right.png"} />
+            </Col>
             <Col xs={24} sm={20} md={20} lg={16} xl={12} >
                 <div
                     style={{
@@ -27,7 +30,11 @@ export default function PageFrame(props) {
                 </div>
 
             </Col>
-            <Col style={{backgroundColor:"#002d2d"}}  xs={0} sm={2} md={2} lg={4} xl={6}  >col-8</Col>
+
+            <Col style={{backgroundColor:"black"}}  xs={0} sm={2} md={2} lg={4} xl={6}  >
+                <img style={{width:100,height:props.height,
+                    float:"left", right:100,position:"relative", zIndex:1}} src={"fades/fade_left.png"} />
+            </Col>
         </Row>
     </>
 }
