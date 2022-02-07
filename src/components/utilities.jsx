@@ -11,7 +11,7 @@ export default function Utilities(props) {
 
         <Utility imageIcon ="/utility_icons/passive_income.png"
                      title ="Passive Income"
-                 text ="You will earn truly passive income with this NFT. Around 80% of the money will be invested into mining cryptocurrencies using ASIC miners! We expect a ROI of 1 year. So it’s really risk-free. We will also be fully transparent about what the costs are. All the information will be posted in our discord TRUST channel.
+                    text ="You will earn truly passive income with this NFT. Around 80% of the money will be invested into mining cryptocurrencies using ASIC miners! We expect a ROI of 1 year. So it’s really risk-free. We will also be fully transparent about what the costs are. All the information will be posted in our discord TRUST channel.
 " >
         </Utility>
 
@@ -45,12 +45,8 @@ export default function Utilities(props) {
 
         <Utility imageIcon ="utility_icons/community.png"
                      title = "Community"
-                 text = "We think, that this project will be one of the biggest projects of 2022. We are expecting that there will be many experts within various fields in our community. You could join too. We will make a private chat room for various events and job fields so that you can connect with other NFT holders around the globe.
-">
+                 text = "We think, that this project will be one of the biggest projects of 2022. We are expecting that there will be many experts within various fields in our community. You could join too. We will make a private chat room for various events and job fields so that you can connect with other NFT holders around the globe.">
         </Utility>
-
-
-
 
     </>
 }
