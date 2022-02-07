@@ -21,8 +21,10 @@ export default function Home() {
 
         </LandingPage>
     </PageFrame>
+    <PageFrame backgroundImage={"wallpaper/utilities_wallpaper.png"} height={2000}>
+        <Utilities></Utilities>
+    </PageFrame>
 
-   <Utilities></Utilities>
     <></>
 
     <style jsx global>{`
