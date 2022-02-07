@@ -14,11 +14,11 @@ export default function Button(props)
     
     return <>
     <a href={props.link}>
-    <button style={hover ? {backgroundColor:"#6BB5C5", borderRadius:"25px", border: "solid white", color:"white"
-    ,fontFamily: "Poppins", fontSize:"18px", fontWeight:"900", width:"170px"} :{backgroundColor:"#2C96AD", borderRadius:"25px", border: "solid white", color:"white"
-    ,fontFamily: "Poppins", fontSize:"18px", fontWeight:"900", width:"170px"} } onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
-{props.icon}
-           <s style={{textDecoration:"none", bottom:"8px", position:"relative"}}>{props.name}</s>
+        <button style={hover ? {backgroundColor:"#6BB5C5", borderRadius:"25px", border: "solid white", color:"white"
+        ,fontFamily: "Poppins", fontSize:"18px", fontWeight:"900", width:"170px",margin:10} :{backgroundColor:"#2C96AD", borderRadius:"25px", border: "solid white", color:"white"
+        ,fontFamily: "Poppins", fontSize:"18px", fontWeight:"900", width:"170px",margin:10} } onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
+    {props.icon}
+                   <s style={{textDecoration:"none", bottom:"8px", position:"relative"}}>{props.name}</s>
         </button>
     </a>
 

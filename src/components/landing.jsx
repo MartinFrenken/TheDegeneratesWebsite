@@ -1,23 +1,28 @@
 import React from "react";
 import {Col, Row} from "antd";
 import { IdResponsiveRenderOnlyIn, Responsive } from "responsive-react";
+import Buttons from "./buttons";
+import PageFrame from "./structure/pageframe";
 export default function Landing()
 {
     return <>
         <div >
-            <Row justify="center"  >
-                <Col span={2}/>
-                <Col span={20}>
+
                     <Responsive displayIn={[IdResponsiveRenderOnlyIn.Mobile, IdResponsiveRenderOnlyIn.Tablet]}>
-                        <img style={{marginTop:410}} src="/logo_small.png"/>
+                        <img style={{display:"block",marginLeft:"auto",marginRight:"auto",paddingTop:400}} src="/logo_small.png"/>
                     </Responsive>
 
                     <Responsive displayIn={[ IdResponsiveRenderOnlyIn.Laptop]}>
-                        <img style={{marginTop:410}} src="/logo.png"/>
+                        <img style={{display:"block",marginLeft:"auto",marginRight:"auto",paddingTop:400}} src="/logo.png"/>
                     </Responsive>
-                </Col>
-                <Col span={2}/>
-                </Row  >
+            <Responsive displayIn={[ IdResponsiveRenderOnlyIn.Laptop]}>
+            <p style={{fontSize:"22px", fontWeight:"900",color:"white", wordWrap:"break-word", inlineSize:"600px", marginRight:"auto",marginLeft:"auto", textAlign:"center"}}> Enter the metaverse future and earn truly passive income with us! We are the only NFT project with which you get more than you paid for!</p>
+            </Responsive>
+            <Responsive displayIn={[IdResponsiveRenderOnlyIn.Mobile, IdResponsiveRenderOnlyIn.Tablet]}>
+                <p style={{fontSize:"18px", fontWeight:"800",color:"white", wordWrap:"break-word", inlineSize:"250px", marginRight:"auto",marginLeft:"auto", textAlign:"center"}}> Enter the metaverse future and earn truly passive income with us! We are the only NFT project with which you get more than you paid for!</p>
+            </Responsive>
+                  <Buttons style={{display:"block",position:"relative",top:712}}/>
+
         </div>
     </>
 

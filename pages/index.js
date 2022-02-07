@@ -11,6 +11,7 @@ import { FaDiscord ,FaTwitter} from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
 
 import PictureTitle from "../src/components/picturetitle";
+import Buttons from "../src/components/buttons";
 
 
 const LandingPage = dynamic(
@@ -21,19 +22,10 @@ export default function Home() {
   return (
 <div>
     <PageFrame backgroundImage={"Naamloos.png"} height={1000}>
-        <LandingPage>
+        <LandingPage >
  
         </LandingPage>
-        <Button 
-        link="https://discord.gg/eXUdVGX5"
-        icon={<FaDiscord style={{position:"relative",top:4, fontSize:"40px",left:"-10px", color:"black"}}></FaDiscord>}
-        name="Discord">
-        </Button>
-        <Button 
-        link="https://twitter.com/The_DegensNFT"
-        icon={<AiOutlineTwitter style={{position:"relative",top:4, fontSize:"40px",left:"-10px", color:"black"}}></AiOutlineTwitter>}
-        name="Twitter">
-        </Button>
+
 
     </PageFrame>
     <PageFrame backgroundImage={"wallpaper/the_mint.png"} height={558}>
