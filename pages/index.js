@@ -3,6 +3,9 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {Col, Row} from "antd";
 import dynamic from "next/dist/next-server/lib/dynamic";
+import Utility from "../src/components/utility";
+import Utilities from "../src/components/utilities";
+import PageFrame from "../src/components/structure/pageframe";
 
 
 const LandingPage = dynamic(
@@ -13,32 +16,14 @@ export default function Home() {
   return (
 <div>
 
-    <Row >
-        <Col style={{backgroundColor:"#002d2d"}} xs={0} sm={2} md={2} lg={4} xl={6} >col-8</Col>
-        <Col xs={24} sm={20} md={20} lg={16} xl={12} >
-            <div
-                style={{
-                    backgroundImage: "url('/Naamloos.png')",
-                    backgroundPosition: 'center center',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
-                    width:"100%",
-                    height:1000,
+    <PageFrame backgroundImage={"Naamloos.png"} height={1000}>
+        <LandingPage>
 
+        </LandingPage>
+    </PageFrame>
 
-
-
-                }}
-            >
-
-            <LandingPage></LandingPage>
-
-            </div>
-
-        </Col>
-        <Col style={{backgroundColor:"#002d2d"}}  xs={0} sm={2} md={2} lg={4} xl={6}  >col-8</Col>
-    </Row>
-
+   <Utilities></Utilities>
+    <></>
 
     <style jsx global>{`
   html,
