@@ -1,20 +1,39 @@
-import React from "react";
+import React,{ useState } from "react";
 import {Col, Row} from "antd";
 
-export default function Landing()
+export default function Button(props)
 {
-    return <>
-        <div >
-            <Row justify="right"  >
-                <Col span={12} offset={6}>
-                    
-                    <img style={{marginTop:410}} src="/Logo.png"/>
-                </Col>
+    const [hover, setHover] = useState();
 
-                </Row  >
-        </div>
+    const handleMouseIn = () => {
+        setHover(true);
+    };
+    const handleMouseOut = () => {
+        setHover(false);
+    };
+    
+    return <>
+    <a href={props.link}>
+    <button style={hover ? {backgroundColor:"#6BB5C5", borderRadius:"25px", border: "solid white", color:"white"
+    ,fontFamily: "Poppins", fontSize:"18px", fontWeight:"900", width:"170px"} :{backgroundColor:"#2C96AD", borderRadius:"25px", border: "solid white", color:"white"
+    ,fontFamily: "Poppins", fontSize:"18px", fontWeight:"900", width:"170px"} } onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
+{props.icon}
+           <s style={{textDecoration:"none", bottom:"8px", position:"relative"}}>{props.name}</s>
+        </button>
+    </a>
+
     </>
 
 
 
+
 }
+
+// font-family: Poppins;
+// font-size: 22px;
+// font-style: normal;
+// font-weight: 900;
+// line-height: 20px;
+// letter-spacing: 0em;
+// text-align: center;
+
