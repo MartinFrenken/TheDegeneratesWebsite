@@ -10,7 +10,7 @@ import Button from "../src/components/button";
 import PageFrame from "../src/components/structure/pageframe";
 import { FaDiscord ,FaTwitter} from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
-
+import 'react-multi-carousel/lib/styles.css';
 import PictureTitle from "../src/components/picturetitle";
 import Buttons from "../src/components/buttons";
 import TheMint from "../src/components/themint";
