@@ -1,79 +1,21 @@
 import React from "react";
 import Carousel from 'react-multi-carousel';
-
+import {Col, Row} from "antd";
 import 'react-multi-carousel/lib/styles.css';
+import CustomCarousel from "./carousel";
 
 export default function TheMint(props) {
-    const responsive = {
-        desktop: {
-            breakpoint: { max: 3000, min: 1024 },
-            items: 3,
-            slidesToSlide: 1 // optional, default to 1.
-        },
-        tablet: {
-            breakpoint: { max: 1024, min: 464 },
-            items: 2,
-            slidesToSlide: 1 // optional, default to 1.
-        },
-        mobile: {
-            breakpoint: { max: 464, min: 0 },
-            items: 1,
-            slidesToSlide: 1 // optional, default to 1.
-        }
-    };
 
-    return <>
+return <>
+    <Row>
+        <Col span={12}>
+        </Col>
 
-        <Carousel style
-            swipeable={false}
-            draggable={false}
-            showDots={false}
-            arrows={false}
-            ssr={true} // means to render carousel on server-side.
-            infinite={true}
-            autoPlay={ true}
-            autoPlaySpeed={1000}
-            keyBoardControl={true}
+        <Col span={12}>
+            <CustomCarousel>
 
-            transitionDuration={500}
-            containerClass="carousel-container"
-            removeArrowOnDeviceType={["tablet", "mobile","laptop"]}
-            dotListClass="custom-dot-list-style"
-            itemClass="carousel-item-padding-40-px"
-         responsive={responsive}>
-
-            <img width={115} height={115} src={"/degenerates/degen_7.png"} />
-            <img width={115} height={115} src={"/degenerates/degen_8.png"} />
-            <img width={115} height={115} src={"/degenerates/degen_9.png"} />
-            <img width={115} height={115} src={"/degenerates/degen_10.png"} />
-            <img width={115} height={115} src={"/degenerates/degen_11.png"} />
-            <img width={115} height={115} src={"/degenerates/degen_12.png"} />
-  </Carousel>
-        <Carousel
-            swipeable={false}
-            draggable={false}
-            showDots={false}
-            arrows={false}
-            ssr={true} // means to render carousel on server-side.
-            infinite={true}
-            autoPlay={ true}
-            autoPlaySpeed={1000}
-            keyBoardControl={true}
-
-            transitionDuration={500}
-            containerClass="carousel-container"
-            removeArrowOnDeviceType={["tablet", "mobile","laptop"]}
-            dotListClass="custom-dot-list-style"
-            itemClass="carousel-item-padding-40-px"
-            responsive={responsive}>
-
-            <img width={115} height={115} src={"/degenerates/degen_7.png"} />
-            <img width={115} height={115} src={"/degenerates/degen_8.png"} />
-            <img width={115} height={115} src={"/degenerates/degen_9.png"} />
-            <img width={115} height={115} src={"/degenerates/degen_10.png"} />
-            <img width={115} height={115} src={"/degenerates/degen_11.png"} />
-            <img width={115} height={115} src={"/degenerates/degen_12.png"} />
-        </Carousel>
-
+            </CustomCarousel>
+        </Col>
+    </Row>
     </>
 }
