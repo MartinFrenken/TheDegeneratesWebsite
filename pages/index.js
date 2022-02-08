@@ -34,14 +34,8 @@ export default function Home() {
 
 
     </PageFrame>
-    <PageFrame backgroundImage={"wallpaper/the_mint.png"} height={558}>
-        <PictureTitle
-            width ={129}
-            height ={67}
-            imageURL={"title_texts/the_top.png"} text={"MINT"}
-            lineHeight = {"60px"}
+    <PageFrame backgroundImage={"wallpaper/the_mint.png"} height={858}>
 
-        />
         <Mint></Mint>
 
     </PageFrame>
