@@ -8,12 +8,13 @@ export default function Landing()
     return <>
         <div >
 
+
                     <Responsive displayIn={[IdResponsiveRenderOnlyIn.Mobile, IdResponsiveRenderOnlyIn.Tablet]}>
-                        <img style={{display:"block",marginLeft:"auto",marginRight:"auto",paddingTop:400}} src="/logo_small.png"/>
+                        <img style={{display:"block",marginLeft:"auto",marginRight:"auto",paddingTop:260}} src="/logo_small.png"/>
                     </Responsive>
 
                     <Responsive displayIn={[ IdResponsiveRenderOnlyIn.Laptop]}>
-                        <img style={{display:"block",marginLeft:"auto",marginRight:"auto",paddingTop:400}} src="/logo.png"/>
+                        <img style={{display:"block",marginLeft:"auto",marginRight:"auto",paddingTop:260}} src="/logo.png"/>
                     </Responsive>
             <Responsive displayIn={[ IdResponsiveRenderOnlyIn.Laptop]}>
             <p style={{fontSize:"22px", fontWeight:"900",color:"white", wordWrap:"break-word", inlineSize:"600px", marginRight:"auto",marginLeft:"auto", textAlign:"center"}}> Enter the metaverse future and earn truly passive income with us! We are the only NFT project with which you get more than you paid for!</p>

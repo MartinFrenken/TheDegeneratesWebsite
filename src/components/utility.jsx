@@ -14,12 +14,12 @@ return <>
 
 
             <Space direction="horizontal" style={{width: '100%', justifyContent: 'center'}}>
-                <p style={{fontWeight:800,fontSize:30,alignContent:"center",color:"white"}}>{props.title}</p>
+                <p style={{fontWeight:800,fontSize:30,alignContent:"center",color:"white",textAlign:"center"}}>{props.title}</p>
             </Space >
 
 
             <Space direction="horizontal" style={{width: '100%', justifyContent: 'center'}}>
-                <p style={{fontWeight:400,fontSize:15,alignContent:"center",color:"white"}}>{props.text}</p>
+                <p style={{fontWeight:400,fontSize:15,alignContent:"center",color:"white",textAlign:"center"}}>{props.text}</p>
             </Space >
         </Col>
     <Col  span={2} >
