@@ -4,21 +4,27 @@ import {Col, Row} from "antd";
 export default function PictureTitle(props) {
 
     return <div >
-        <Row >
-        <Col  span={2}>
-        </Col>
-        <Col  span={10}>
+        <Row  >
+
+        <Col  xs={0} sm={0} lg={12}>
             <img style={{width:props.width,height:props.height,
                 float:"right", left:-10,position:"relative",marginTop:30}} src={props.imageURL} />
 
         </Col>
-        <Col  span={10}>
+        <Col  xs={0}     sm={0} lg={12}>
             <p style={{color:"white",fontSize:60,fontWeight:600,lineHeight:props.lineHeight,marginTop:30}}>{props.text}</p>
         </Col>
+        </Row>
+        <Row  type="flex" align="center" justify ="center">
 
+            <Col  xs={24} sm={24} lg={0}>
+                <img style={{width:props.width,height:props.height,
+                 marginTop:30}} src={props.imageURL} />
 
-        <Col  span={2}>
-        </Col>
+            </Col>
+            <Col  xs={24}     sm={24} lg={0}>
+                <p style={{color:"white",fontSize:60,fontWeight:600,lineHeight:props.lineHeight,marginTop:30}}>{props.text}</p>
+            </Col>
         </Row>
         </div>
 

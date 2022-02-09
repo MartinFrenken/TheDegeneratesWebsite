@@ -36,7 +36,7 @@ export default function Home() {
 
 
 <div style={{overflowX:"hidden"}}>
-<TeamMember></TeamMember>
+
     <PageFrame backgroundImage={"Naamloos.png"} height={750}>
         <LandingPage >
  
@@ -57,7 +57,7 @@ export default function Home() {
             imageURL={"title_texts/title_benefits.png"} text={"AND UTILITIES"} />
         <Utilities ></Utilities>
     </PageFrame>
-
+    <TeamMember></TeamMember>
     <></>
 
     <style jsx global>{`
