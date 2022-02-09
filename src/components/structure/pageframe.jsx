@@ -5,11 +5,11 @@ export default function PageFrame(props) {
 
     return <>
         <Row >
-            <Col style={{backgroundColor:"black",overflow:"visible"}} xs={0} sm={2} md={2} lg={0} xl={0} xxl={2} >
+            <Col style={{backgroundColor:"black",overflow:"visible"}} xs={0} sm={2} md={2} lg={0}  >
                 <img style={{width:100,height:props.height,
                     float:"right", left:100,position:"relative", zIndex:1}} src={"fades/fade_right.png"} />
             </Col>
-            <Col xs={24} sm={20} md={20} lg={24} xl={24} xxl={18}>
+            <Col xs={24} sm={20} md={20} lg={24} >
                 <div
                     style={{
                         backgroundImage: "url(\'" + props.backgroundImage +  " \')",
@@ -31,7 +31,7 @@ export default function PageFrame(props) {
 
             </Col>
 
-            <Col style={{backgroundColor:"black"}}  xs={0} sm={2} md={2} lg={0} xl={0} xxl={2}  >
+            <Col style={{backgroundColor:"black"}}  xs={0} sm={2} md={2} lg={0}i  >
                 <img style={{width:100,height:props.height,
                     float:"left", right:100,position:"relative", zIndex:1}} src={"fades/fade_left.png"} />
             </Col>
