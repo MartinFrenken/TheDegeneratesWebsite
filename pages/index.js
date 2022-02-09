@@ -14,7 +14,11 @@ import 'react-multi-carousel/lib/styles.css';
 import PictureTitle from "../src/components/picturetitle";
 import Buttons from "../src/components/buttons";
 import TheMint from "../src/components/themint";
+
 import TeamMember from "../src/components/teammembers";
+
+import  { useState, useEffect } from "react"
+
 
 const LandingPage = dynamic(
     () => import("../src/components/landing.jsx"),
@@ -25,10 +29,14 @@ const Mint = dynamic(
     { ssr: false })
 
 export default function Home() {
+    const size = useWindowSize();
+
   return (
-<div>
-  <TeamMember></TeamMember>
-   
+
+
+
+<div style={{overflowX:"hidden"}}>
+<TeamMember></TeamMember>
     <PageFrame backgroundImage={"Naamloos.png"} height={750}>
         <LandingPage >
  
@@ -36,18 +44,12 @@ export default function Home() {
 
 
     </PageFrame>
-    <PageFrame backgroundImage={"wallpaper/the_mint.png"} height={558}>
-        <PictureTitle
-            width ={129}
-            height ={67}
-            imageURL={"title_texts/the_top.png"} text={"MINT"}
-            lineHeight = {"60px"}
+    <PageFrame backgroundImage={"wallpaper/the_mint.png"} height={size.height_the_mint}>
 
-        />
         <Mint></Mint>
 
     </PageFrame>
-    <PageFrame backgroundImage={"wallpaper/utilities_wallpaper.png"} height={2500}>
+    <PageFrame backgroundImage={"wallpaper/utilities_wallpaper.png"} height={size.height_benefits}>
         <PictureTitle
             width ={318}
             height ={60}
@@ -78,3 +80,49 @@ export default function Home() {
   )
 }
 
+function useWindowSize() {
+
+    const [windowSize, setWindowSize] = useState({
+        width: undefined,
+        height: undefined,
+        height_the_mint: undefined,
+        height_benefits: undefined
+    });
+
+    useEffect(() => {
+        // only execute all the code below in client side
+        if (typeof window !== 'undefined') {
+            // Handler to call on window resize
+            let set_height_the_mint = 500
+            let set_height_benefits = 500
+            function handleResize() {
+                // Set window width/height to state
+
+                if(window.innerWidth<770){
+                    set_height_the_mint = 800
+                    set_height_benefits = 2500
+                }
+                if(window.innerWidth>770){
+                    set_height_the_mint = 530
+                    set_height_benefits = 1500
+                }
+                setWindowSize({
+                    width: window.innerWidth,
+                    height: window.innerHeight,
+                    height_the_mint:set_height_the_mint,
+                    height_the_benefits:set_height_benefits
+                });
+            }
+
+            // Add event listener
+            window.addEventListener("resize", handleResize);
+
+            // Call handler right away so state gets updated with initial window size
+            handleResize();
+
+            // Remove event listener on cleanup
+            return () => window.removeEventListener("resize", handleResize);
+        }
+    }, []); // Empty array ensures that effect is only run on mount
+    return windowSize;
+}

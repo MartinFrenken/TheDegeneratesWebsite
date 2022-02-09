@@ -17,7 +17,7 @@ return<>
             <Button style={center}
 
                 link="https://discord.gg/eXUdVGX5"
-                icon={<FaDiscord style={{position:"relative",top:4, fontSize:"40px",left:"-10px", color:"black"}}></FaDiscord>}
+                icon={<FaDiscord style={{position: "relative", top: 4, fontSize: "40px", left: "-10px", color: "black"}}/>}
                 name="Discord">
             </Button>
 
