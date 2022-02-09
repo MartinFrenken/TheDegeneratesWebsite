@@ -13,7 +13,7 @@ export default function Team(props)
     
     return <>
     <div>
-    <p style={{fontWeight:"900", width:"300px"}}>{props.teamname} <a style={{float:"right"}} href={props.link}>{props.icon}</a></p>
+    <p style={{fontWeight:"1900", width:"300px",color:"white",fontSize:30}}>{props.teamname} <a style={{float:"right"}} href={props.link}>{props.icon}</a></p>
     <div  onMouseOver={handleMouseIn} onMouseOut={handleMouseOut} style={{width:"300px" ,height:"300px", position:"relative"}}>
     <img src={props.image} alt="" width="300" height="300" />
     <p style={{visibility:hover? "visible":"hidden",opacity:hover?"1":"0", position:"absolute", top:"0",bottom:"0",

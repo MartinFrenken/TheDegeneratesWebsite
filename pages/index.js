@@ -18,6 +18,7 @@ import TheMint from "../src/components/themint";
 import TeamMember from "../src/components/teammembers";
 
 import  { useState, useEffect } from "react"
+import TeamMembers from "../src/components/teammembers";
 
 
 const LandingPage = dynamic(
@@ -46,7 +47,7 @@ export default function Home() {
     </PageFrame>
     <PageFrame backgroundImage={"wallpaper/the_mint.png"} height={size.height_the_mint}>
 
-        <Mint></Mint>
+        <Mint/>
 
     </PageFrame>
     <PageFrame backgroundImage={"wallpaper/utilities_wallpaper.png"} height={size.height_benefits}>
@@ -55,10 +56,19 @@ export default function Home() {
             height ={60}
             lineHeight={"52px"}
             imageURL={"title_texts/title_benefits.png"} text={"AND UTILITIES"} />
-        <Utilities ></Utilities>
+        <Utilities />
     </PageFrame>
-    <TeamMember></TeamMember>
-    <></>
+    <PageFrame backgroundImage={"wallpaper/utilities_wallpaper.png"} height={size.height_the_team}>
+        <PictureTitle
+            width ={129}
+            height ={52}
+            lineHeight={"44px"}
+            imageURL={"title_texts/the_bottom.png"} text={"TEAM"} />
+
+        <TeamMembers/>
+    </PageFrame>
+
+
 
     <style jsx global>{`
   html,
@@ -86,7 +96,8 @@ function useWindowSize() {
         width: undefined,
         height: undefined,
         height_the_mint: undefined,
-        height_benefits: undefined
+        height_benefits: undefined,
+        height_the_team: undefined
     });
 
     useEffect(() => {
@@ -95,16 +106,19 @@ function useWindowSize() {
             // Handler to call on window resize
             let set_height_the_mint = 500
             let set_height_benefits = 500
+            let set_height_the_team = 500
             function handleResize() {
                 // Set window width/height to state
 
                 if(window.innerWidth<770){
                     set_height_the_mint = 800
                     set_height_benefits = 2500
+                    set_height_the_team = 2000
                 }
                 if(window.innerWidth>770){
                     set_height_the_mint = 530
                     set_height_benefits = 1500
+                    set_height_the_team = 500
                 }
                 setWindowSize({
                     width: window.innerWidth,
