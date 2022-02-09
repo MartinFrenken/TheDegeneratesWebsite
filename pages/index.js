@@ -28,7 +28,7 @@ export default function Home() {
     const size = useWindowSize();
 
   return (
-<div>
+<div style={{overflowX:"hidden"}}>
 
     <PageFrame backgroundImage={"Naamloos.png"} height={750}>
         <LandingPage >
