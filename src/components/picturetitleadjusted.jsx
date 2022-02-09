@@ -9,7 +9,7 @@ export default function PictureTitleAdjusted(props) {
                 float:"left", left:-10,position:"relative",marginTop:30}} src={props.imageURL} />
 
 
-            <p style={{ float:"left",color:"white",fontSize:60,fontWeight:600,lineHeight:props.lineHeight,marginTop:30}}>{props.text}</p>
+            <p style={{ float:"left",color:"white",fontSize:60,fontWeight:600,lineHeight:props.lineHeight,marginTop:30,marginBottom:0}}>{props.text}</p>
 
         </div>
 
