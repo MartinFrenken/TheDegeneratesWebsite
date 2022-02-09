@@ -14,7 +14,11 @@ import 'react-multi-carousel/lib/styles.css';
 import PictureTitle from "../src/components/picturetitle";
 import Buttons from "../src/components/buttons";
 import TheMint from "../src/components/themint";
+
+import TeamMember from "../src/components/teammembers";
+
 import  { useState, useEffect } from "react"
+
 
 const LandingPage = dynamic(
     () => import("../src/components/landing.jsx"),
@@ -28,8 +32,11 @@ export default function Home() {
     const size = useWindowSize();
 
   return (
-<div style={{overflowX:"hidden"}}>
 
+
+
+<div style={{overflowX:"hidden"}}>
+<TeamMember></TeamMember>
     <PageFrame backgroundImage={"Naamloos.png"} height={750}>
         <LandingPage >
  
