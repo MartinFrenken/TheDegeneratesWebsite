@@ -3,7 +3,7 @@ import Utility from "./utility";
 
 export default function Utilities(props) {
 
-    return <>
+    return <div style={{paddingBottom:50}}>
         <Utility imageIcon ="/utility_icons/money_back_guarantee.png"
                  title ="Money Back Guarantee"
                  text ="The Degenerate is a project completely different from other projects. Therefore, we have complete trust, that it will sell out in a matter of minutes. We are so confident, that we are offering a 75% money-back guarantee on all main minted NFTs if we don't sell out  more then20 % of the project. This is the minimum we need for our plans to move forward with mining, metaverse, etc." >
@@ -48,5 +48,5 @@ export default function Utilities(props) {
                  text = "We think, that this project will be one of the biggest projects of 2022. We are expecting that there will be many experts within various fields in our community. You could join too. We will make a private chat room for various events and job fields so that you can connect with other NFT holders around the globe.">
         </Utility>
 
-    </>
+    </div>
 }
