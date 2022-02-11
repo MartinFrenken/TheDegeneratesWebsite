@@ -20,6 +20,7 @@ import Minning from "../src/components/minning";
 
 import  { useState, useEffect } from "react"
 import TeamMembers from "../src/components/teammembers";
+import TheApp from "../src/components/theapp";
 
 
 const LandingPage = dynamic(
@@ -59,10 +60,13 @@ export default function Home() {
             lineHeight={"52px"}
             imageURL={"title_texts/title_benefits.png"} text={"AND UTILITIES"} />
         <Utilities />
+        <TheApp></TheApp>
     </PageFrame>
     <PageFrame backgroundImage={"wallpaper/cryptominning.png"} height={size.height_crypto_mining}>
 
-     <Minning></Minning>
+     <Minning>
+
+     </Minning>
 
     </PageFrame>
     <PageFrame backgroundImage={"wallpaper/utilities_wallpaper.png"} height={size.height_the_team}>
@@ -123,7 +127,7 @@ function useWindowSize() {
                     set_height_the_mint = 800
                     set_height_benefits = 2500
                     set_height_the_team = 2000
-                    set_height_crypto_mining =900
+                    set_height_crypto_mining =1300
                 }
                 if(window.innerWidth>770){
                     set_height_the_mint = 530
