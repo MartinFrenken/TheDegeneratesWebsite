@@ -16,9 +16,11 @@ import Buttons from "../src/components/buttons";
 import TheMint from "../src/components/themint";
 
 import TeamMember from "../src/components/teammembers";
+import Minning from "../src/components/minning";
 
 import  { useState, useEffect } from "react"
 import TeamMembers from "../src/components/teammembers";
+import TheApp from "../src/components/theapp";
 
 
 const LandingPage = dynamic(
@@ -50,6 +52,7 @@ export default function Home() {
         <Mint/>
 
     </PageFrame>
+    
     <PageFrame backgroundImage={"wallpaper/utilities_wallpaper.png"} height={size.height_benefits}>
         <PictureTitle
             width ={318}
@@ -57,6 +60,14 @@ export default function Home() {
             lineHeight={"52px"}
             imageURL={"title_texts/title_benefits.png"} text={"AND UTILITIES"} />
         <Utilities />
+        <TheApp></TheApp>
+    </PageFrame>
+    <PageFrame backgroundImage={"wallpaper/cryptominning.png"} height={size.height_crypto_mining}>
+
+     <Minning>
+
+     </Minning>
+
     </PageFrame>
     <PageFrame backgroundImage={"wallpaper/utilities_wallpaper.png"} height={size.height_the_team}>
         <PictureTitle
@@ -97,7 +108,8 @@ function useWindowSize() {
         height: undefined,
         height_the_mint: undefined,
         height_benefits: undefined,
-        height_the_team: undefined
+        height_the_team: undefined,
+        height_crypto_mining:undefined
     });
 
     useEffect(() => {
@@ -107,6 +119,7 @@ function useWindowSize() {
             let set_height_the_mint = 500
             let set_height_benefits = 500
             let set_height_the_team = 500
+            let set_height_crypto_mining = 500
             function handleResize() {
                 // Set window width/height to state
 
@@ -114,17 +127,20 @@ function useWindowSize() {
                     set_height_the_mint = 800
                     set_height_benefits = 2500
                     set_height_the_team = 2000
+                    set_height_crypto_mining =1300
                 }
                 if(window.innerWidth>770){
                     set_height_the_mint = 530
-                    set_height_benefits = 1500
+                    set_height_benefits = 1800
                     set_height_the_team = 500
+                    set_height_crypto_mining =700
                 }
                 setWindowSize({
                     width: window.innerWidth,
                     height: window.innerHeight,
                     height_the_mint:set_height_the_mint,
-                    height_the_benefits:set_height_benefits
+                    height_the_benefits:set_height_benefits,
+                    height_crypto_mining:set_height_crypto_mining
                 });
             }
 

@@ -3,7 +3,7 @@ import {Col, Row} from "antd";
 
 export default function PictureTitleAdjusted(props) {
 
-    return <div style={{paddingLeft:80}} >
+    return <div style={props.styling} >
 
             <img style={{width:props.width,height:props.height,
                 float:"left", left:-10,position:"relative",marginTop:30}} src={props.imageURL} />
