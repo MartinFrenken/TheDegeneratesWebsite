@@ -47,13 +47,13 @@ export default function Home() {
 
 
     </PageFrame>
-    <PageFrame backgroundImage={"wallpaper/the_mint.png"} height={size.height_the_mint}>
+    <PageFrame backgroundImage={"wallpaper/r1.png"} height={size.height_the_mint}>
 
         <Mint/>
 
     </PageFrame>
     
-    <PageFrame backgroundImage={"wallpaper/utilities_wallpaper.png"} height={size.height_benefits}>
+    <PageFrame backgroundImage={"wallpaper/r1.png"} height={size.height_benefits}>
         <PictureTitle
             width ={318}
             height ={60}
@@ -69,7 +69,7 @@ export default function Home() {
      </Minning>
 
     </PageFrame>
-    <PageFrame backgroundImage={"wallpaper/utilities_wallpaper.png"} height={size.height_the_team}>
+    <PageFrame backgroundImage={"wallpaper/r2.png"} height={size.height_the_team}>
         <PictureTitle
             width ={129}
             height ={52}
@@ -127,7 +127,7 @@ function useWindowSize() {
                     set_height_the_mint = 800
                     set_height_benefits = 2500
                     set_height_the_team = 2000
-                    set_height_crypto_mining =1300
+                    set_height_crypto_mining =0
                 }
                 if(window.innerWidth>770){
                     set_height_the_mint = 530

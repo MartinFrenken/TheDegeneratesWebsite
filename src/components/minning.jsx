@@ -6,7 +6,7 @@ return <>
     <Row style={{paddingTop:72}}>
     <Col xs={0} md={0} lg={9}/>
 
-    <Col xs={24} md={24 } lg={15}>
+    <Col xs={0} md={0 } lg={15}>
         <div style={{boxSizing: "border-box",border: "10px solid #3F54A0", borderRadius:"30px", background:"rgba(8, 8, 49, 0.55)",marginRight:72,marginLeft:72}}>
             <p style={{color:"white", fontSize:"60px", fontFamily:"Poppins", fontWeight:"900", marginBottom:"0px", textAlign:"center"}}>CRYPTO MINING</p>
             <p style={{color:"white", textAlign:"justify", fontSize:"17px", paddingLeft:"40px", paddingRight:"40px"}}>
