@@ -27,7 +27,7 @@ export default function TeamMembers(props) {
             icon={<AiOutlineTwitter style={{fontSize: "39px", color: "white"}}/>}
             link={"https://twitter.com/Thewaterstone2"}
             intro={<>Hi, I'm Milan and I'm the head of the art part of our project. I'm personally responsible for all the tribes of the DEGENERATES.
-            My background is mainly in photoshop and illustrator, which I did in school. I hope you like the art. My main goal was to stand out from the rest of the competition. If you have any questions for me, contact me at <a target={"_blank"} href={"mailto:mino.krajniak@gmail.com"}>mino.krajniak@gmail.com</a></>}>
+            My background is mainly in photoshop and illustrator, which I studied in art school. I hope you like the art. My main goal was to stand out from the rest of the competition. If you have any questions for me, contact me at <a target={"_blank"} href={"mailto:mino.krajniak@gmail.com"}>mino.krajniak@gmail.com</a></>}>
 
         </Team>
         <Team 
@@ -50,7 +50,7 @@ export default function TeamMembers(props) {
         </Team>
         </Row>
             <Row  type="flex" align="center" justify ="center" >
-        <p style={{paddingTop:"73px",paddingBottom:"73px",fontSize:"20px", fontWeight:"600",color:"white", wordWrap:"break-word", inlineSize:"1000px", marginRight:"auto",marginLeft:"auto", textAlign:"center"}}>We are a group of crypto and NFT technology enthusiasts, who decided to do one of a kind NFT project together. If you would like to know us more, feel free to join one of our weekly AMA sessions and ask some questions!</p>
+        <p style={{paddingTop:"73px",paddingBottom:"73px",fontSize:"20px", fontWeight:"600",color:"white", wordWrap:"break-word", inlineSize:"1000px", marginRight:"auto",marginLeft:"auto", textAlign:"center"}}>We are a group of crypto and NFT technology enthusiasts, who decided to do one of a kind NFT project together. If you would like to know us more, feel free to join one of our weekly AMA sessions and ask some questions! This website is still under construction, and we will add our rest parts as community and dev roadmap soon!</p>
                 </Row>
         <Row  type="flex" align="center" justify ="center" >
             <p style={{paddingTop:"73px",paddingBottom:"20px",fontSize:"15px", fontWeight:"600",color:"white", wordWrap:"break-word", inlineSize:"1000px", marginRight:"auto",marginLeft:"auto", textAlign:"center"}}>This website is still under development. Nft roadmap and developer roadmap coming soon.</p>
