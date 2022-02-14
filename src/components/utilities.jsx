@@ -6,7 +6,9 @@ export default function Utilities(props) {
     return <div style={{paddingBottom:50}}>
         <Utility imageIcon ="/utility_icons/money_back_guarantee.png"
                  title ="Money Back Guarantee"
-                 text ="The Degenerates is a collection of 10 000 unique mutants consisting of more than 200 unique traits. We emphasize heavily on 1. ART 2. METAVERSE & 3. PASSIVE INCOME. We consider our 10 000 NFT collection, more than just a few pixels on a display, but as a way to connect with the community. With this project we hope you will see the future and potential of NFTs. We will be announcing the mint date and price soon! Follow our social media platforms for more information." >
+                 text ="
+The Degenerate is a project completely different to other projects seen before. Therefore, we have complete trust (very certain) that it will sell out in a matter of minutes. We are so confident that we are offering a 75% money-back guarantee on all main minted NFTs. This is if we don't sell out more than 20 % of the project. Due to the fact that this is the minimum we need for our plans to move forward with mining, metaverse, etc.
+" >
         </Utility>
 
         <Utility imageIcon ="/utility_icons/passive_income.png"
@@ -38,7 +40,7 @@ export default function Utilities(props) {
 
         <Utility imageIcon ="utility_icons/launch_pad.png"
                      title ="Launchpad"
-                 text ="As already stated, community and networking vital aspect to us and the project. Therefore, we decided to organize 2 exclusive parties where we can all meet each other. The summer event will be in the USA and the winter gala party will be held in the European Austrian Alps.
+                 text ="We all know how hard it is to get a WL spot on the best projects. This is why we will try to get as many spots for our community as possible. Not only that, but we will try to even help you with your ideas, if they will be good ones!
 
 " >
         </Utility>
