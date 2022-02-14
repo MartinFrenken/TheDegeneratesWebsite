@@ -16,7 +16,7 @@ export default function TeamMembers(props) {
             image={"team/projectmanager.png"}
             icon={<AiOutlineTwitter style={{fontSize: "39px", color: "white"}}/>}
             link={"https://twitter.com/samuel_sopuch"}
-            intro={<>Hi, I'm Samuel. I'm responsible for all the business ideas and your passive income. My background is in E-commerce, where I worked in thesales department in a small ice-making factory and I also had an internship as a financial agent.
+            intro={<>Hi, I'm Samuel. I'm responsible for all the business ideas and your passive income. My background is in E-commerce, where I worked in the sales department in a small ice-making factory and I also had an internship as a financial agent.
                 If you have any questions for me, contact me at <a target={"_blank"} href={"mailto:sopuch.thedegeneratesnft@gmail.com"}>sopuch.thedegeneratesnft@gmail.com
             </a></>}>
 
