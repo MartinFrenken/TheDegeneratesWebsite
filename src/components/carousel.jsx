@@ -5,8 +5,8 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 export default function CustomCarousel(props) {
-    const imageHeight = 110
-    const imageWidth = 110
+    const imageHeight = props.height
+    const imageWidth = props.width
     const responsive = {
         desktop:{
             breakpoint: { max: 3000, min: 1024 },

@@ -44,10 +44,18 @@ return <>
 
 
         <Col xs={2} md={2} xxl={2}/>
-        <Col xs={20} md={9} xxl={8} >
+        <Col xs={0} md={9} xxl={8} >
             <div style ={{paddingTop: 30}}/>
 
-            <CustomCarousel style={{ margin: "auto"}}>
+            <CustomCarousel style={{ margin: "auto"}} height={130} width={130}>
+
+            </CustomCarousel>
+
+        </Col>
+        <Col xs={20} md={0} xxl={0} >
+            <div style ={{paddingTop: 30}}/>
+
+            <CustomCarousel style={{ margin: "auto"}} height={80} width={80}>
 
             </CustomCarousel>
 
