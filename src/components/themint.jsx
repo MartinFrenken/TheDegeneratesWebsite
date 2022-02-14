@@ -19,8 +19,11 @@ return <>
                 lineHeight = {"60px"}
 
             />  
+
             <p style={{fontWeight:600,fontSize:15,color:"white",paddingTop:130,paddingLeft:40   }}>
                 The Degenerates is a collection of 10 000 unique mutants consisting of more than 200 unique traits. We emphasize heavily on 1. ART 2. METAVERSE 3. PASSIVE INCOME. We consider our 10 000 NFT collection, as more than just few pixels on a display, but as a way to connect with each other. With this project we hope that you will see the future and potential of NFTs. We will announce the mint date and price soon! Follow our social media for more information.
+
+
             </p>
         </Col>
 

@@ -127,7 +127,10 @@ function useWindowSize() {
                     set_height_the_mint = 800
                     set_height_benefits = 2500
                     set_height_the_team = 2000
+
                     set_height_crypto_mining =0
+
+
                 }
                 if(window.innerWidth>770){
                     set_height_the_mint = 530

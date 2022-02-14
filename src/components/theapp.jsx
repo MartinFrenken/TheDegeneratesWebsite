@@ -10,7 +10,9 @@ export default function TheApp() {
         <Col xs={24} md={24} lg={12}>
         <p style={{color:"white", fontSize:"40px", fontFamily:"Poppins", fontWeight:"900", marginBottom:"0px", textAlign:"center"}}>DEGENERATES APP</p>
 
+
         <p style={pstyle}>The degenerate app is for the community and for you to have a closer interaction with us and the NFT itself. We will be giving you weekly updates about our progress, our crypto newsletter, and NFTs to watch, we hope that this will be really helpful for you.
+
 
             Aside from the work we will do for you, you will be able to claim your monthly passive income, stake your NFT and buy stuff in the shop part using our $DEGN coins.
 
@@ -28,8 +30,12 @@ export default function TheApp() {
             <li> 100 Days (15000 $DEGN)</li>
            <li>  180 Days (30 000 $DEGN)</li>
 
+
                 </ul>
             Available will be various event items, but mainly there will be mint passes for the next generations of our NFTs, with which we want to go on a other level. For 150 000 $DEGN coins you will be getting a free NFT, which will make you free passive income, for 90 000 $DEGN coin you will be getting 50% of the mint price, for 25 000 $DEGN coins you will be getting a discount of 25 % and 10 000 $DEGN coins will get you a mint pass, guaranteeing you a spot in the next generation of our NFTS.
+
+            Various event items will be available, but mainly there will be mint passes for the next generations of our NFTs, with which we want to go on another level. For 150 000 $DEGN coins you will be getting a free NFT, which will make you free passive income, for 90 000 $DEGN coin you will be getting 50% of the mint price, for 25 000 $DEGN coins you will be getting a discount of 25 % and 10 000 $DEGN coins will get you a mint pass, guaranteeing you a spot in the next generation of our NFTS.
+
         </p>
         </Col>
 
