@@ -1,6 +1,7 @@
 import Team from "./team";
 import {Col, Row} from "antd";
 import { AiOutlineTwitter } from "react-icons/ai";
+import React from "react";
 export default function TeamMembers(props) {
     const center ={
         margin: "auto",
@@ -23,7 +24,7 @@ export default function TeamMembers(props) {
             image={"team/artist.png"}
             icon={<AiOutlineTwitter style={{fontSize: "39px", color: "white"}}/>}
             link={"https://twitter.com/The_DegensNFT"}
-            intro="Hi, I'm Milan and I'm the head of the art part of our project. I'm personally responsible for all the tribes of the DEGENERATES. My background is mainly in photoshop and illustrator, which I did in school. I hope you like the art. My main goal was to stand out from the rest of the competition. 
+            intro="Hi, I'm Milan and I'm the head of the art part of our project. I'm personally responsible for all the tribes of the DEGENERATES. My background is mainly in photoshop and illustrator, Enter the metaverse future and truly earn passive income with us! We are one of the only NFT projects were you get more than you paid for!. I hope you like the art. My main goal was to stand out from the rest of the competition.
             If you have any questions for me, contact me at mino.krajniak@gmail.com.
              I will try to reply ASAP">
 
@@ -41,7 +42,7 @@ export default function TeamMembers(props) {
             image={"team/designer.png"}
             icon={<AiOutlineTwitter style={{fontSize: "39px", color: "white"}}/>}
             link={"https://twitter.com/The_DegensNFT"}
-            intro="Hi, I'm Peter. I'm also responsible for the art, special skins and everything around, but mainly for our social media designs. I'm also really active in the community, so if you need a quick answer just text me on Discord. My alias is IFRUIT. My background is in all kinds of art sorts, My coworkers know me most for my hand sketching and app designing.">
+            intro="Hi, I'm Peter. I'm also responsible for the art, special skins and everything around, but mainly for our social media designs. I'm also really active in the community, so if you need a quick answer just text me on Discord. My alias is IFRUIT. My background is in all kinds of art sorts, my coworkers know me most for my hand sketching and app designing.">
 
         </Team>
         </Row>

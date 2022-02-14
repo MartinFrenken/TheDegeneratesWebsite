@@ -6,12 +6,12 @@ export default function Utilities(props) {
     return <div style={{paddingBottom:50}}>
         <Utility imageIcon ="/utility_icons/money_back_guarantee.png"
                  title ="Money Back Guarantee"
-                 text ="The Degenerate is a project completely different from other projects. Therefore, we have complete trust, that it will sell out in a matter of minutes. We are so confident, that we are offering a 75% money-back guarantee on all main minted NFTs if we don't sell out  more then20 % of the project. This is the minimum we need for our plans to move forward with mining, metaverse, etc." >
+                 text ="The Degenerate is a project completely different from other projects. Therefore, we are convinced, that it will sell out in a matter of minutes. We are so confident, that we are offering a 75% money-back guarantee on all main minted NFTs if we don't sell out  more then 20% of the project. This is the minimum we need for our plans to move forward with mining, metaverse, etc." >
         </Utility>
 
         <Utility imageIcon ="/utility_icons/passive_income.png"
                      title ="Passive Income"
-                    text ="You will earn truly passive income with this NFT. Around 80% of the money will be invested into mining cryptocurrencies using ASIC miners! We expect a ROI of 1 year. So it’s really risk-free. We will also be fully transparent about what the costs are. All the information will be posted in our discord TRUST channel.
+                    text ="You will truly earn passive income with this NFT. Around 80% of the money will be invested into mining cryptocurrencies using ASIC miners! We expect a ROI of 1 year. So it’s really risk-free. We will also be fully transparent about what the costs are. All the information will be posted in our discord TRUST channel.
 " >
         </Utility>
 
@@ -32,20 +32,20 @@ export default function Utilities(props) {
 
         <Utility imageIcon ="utility_icons/event_pass.png"
                      title ="Event Pass "
-                 text ="As already talked about, community and networking is a very important and vital thing to us. Therefore we decided to organize 2 exclusive parties where we can all meet each other. The summer party will be in the USA and the winter party will be held in the European Austrian Alps.
+                 text ="As metioned earlier, community and networking is vital to us. Therefore we decided to organize 2 exclusive parties where we can all meet each other. The summer party will be in the USA and the winter party will be held in the European Austrian Alps.
 " >
         </Utility>
 
         <Utility imageIcon ="utility_icons/launch_pad.png"
                      title ="Launchpad"
-                 text ="We all know how hard it is to get a WL spot on the best projects. This is why we will try to get as many spots for our community as possible with our influence. Not only that, but we will try to even help you with your ideas, if they will be good ones!
+                 text ="We all know how hard it is to get a WL spot on the best projects. This is why we will try to get as many spots for our community as possible with our influence. Not only that, but we will try to even help you with your own ideas and suggestions!
 
 " >
         </Utility>
 
         <Utility imageIcon ="utility_icons/community.png"
                      title = "Community"
-                 text = "We think, that this project will be one of the biggest projects of 2022. We are expecting that there will be many experts within various fields in our community. You could join too. We will make a private chat room for various events and job fields so that you can connect with other NFT holders around the globe.">
+                 text = "We believe that this project will be one of the biggest projects of 2022. We are expecting that there will be many experts within various fields in our community. You could join too. We will make a private chat room for various events and job fields so that you can connect with other NFT holders around the globe.">
         </Utility>
 
     </div>
