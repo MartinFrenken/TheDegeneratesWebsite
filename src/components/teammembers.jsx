@@ -27,7 +27,7 @@ export default function TeamMembers(props) {
             icon={<AiOutlineTwitter style={{fontSize: "39px", color: "white"}}/>}
             link={"https://twitter.com/Thewaterstone2"}
             intro={<>Hi, I'm Milan and I'm the head of the art part of our project. I'm personally responsible for all the tribes of the DEGENERATES.
-            My background is mainly in photoshop and illustrator, which I studied in art school. I hope you like the art. My main goal was to stand out from the rest of the competition. If you have any questions for me, contact me at <a target={"_blank"} href={"mailto:mino.krajniak@gmail.com"}>mino.krajniak@gmail.com</a></>}>
+            My background is mainly in photoshop and illustrator, which I studied in art school. I hope you like the art. My main goal was to stand out from the rest of the competition. If you have any questions for me, contact me at <a target={"_blank"} href={"mailto:krajniak.thedegeneratesnft@gmail.com"}>krajniak.thedegeneratesnft@gmail.com</a></>}>
 
         </Team>
         <Team 
@@ -44,7 +44,7 @@ export default function TeamMembers(props) {
             image={"team/designer.png"}
             icon={<AiOutlineTwitter style={{fontSize: "39px", color: "white"}}/>}
             link={"https://mobile.twitter.com/ifruit007"}
-            intro={<>Hi, I'm Peter. I'm also responsible for the art, special skins and everything around, but mainly for our social media designs. I'm also really active in the community, so if you need a quick answer just text me on Discord. My alias is IFRUIT. My background is in all kinds of art sorts, My coworkers know me most for my hand sketching and app designing. You can also write me an email on <a target={"_blank"} href={"mailto:krajniak.thedegeneratesnft@gmail.com"}>krajniak.thedegeneratesnft@gmail.com
+            intro={<>Hi, I'm Peter. I'm also responsible for the art, special skins and everything around, but mainly for our social media designs. I'm also really active in the community, so if you need a quick answer just text me on Discord. My alias is IFRUIT. My background is in all kinds of art sorts, My coworkers know me most for my hand sketching and app designing. You can also write me an email on <a target={"_blank"} href={"mailto:slacik.thedegeneratesnft@gmail.com"}>slacik.thedegeneratesnft@gmail.com
 
             </a></>}>
         </Team>
