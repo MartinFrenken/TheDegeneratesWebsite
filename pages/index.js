@@ -124,7 +124,7 @@ function useWindowSize() {
                 // Set window width/height to state
 
                 if(window.innerWidth<770){
-                    set_height_the_mint = 800
+                    set_height_the_mint = 850
                     set_height_benefits = 2500
                     set_height_the_team = 2000
 
