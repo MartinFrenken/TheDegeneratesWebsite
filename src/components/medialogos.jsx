@@ -7,7 +7,7 @@ export default function MediaLogos(props) {
     }
 return <>
     <Row  type="flex"style={{paddingTop:72 }} >
-        <Col xs={0} md={0} lg={1}/>
+        <Col xs={1} md={0} lg={1}/>
         <div>        
             <p style={{color:"rgba(255,255,255,.5)", fontSize:"15px"}}>MEDIA</p>
             <h5 style={{color:"white", fontWeight:"700", fontSize:"20px"}}>As Seen On:</h5>

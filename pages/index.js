@@ -17,11 +17,11 @@ import TheMint from "../src/components/themint";
 
 import TeamMember from "../src/components/teammembers";
 import Minning from "../src/components/minning";
+import MediaLogos from "../src/components/medialogos";
 
 import  { useState, useEffect } from "react"
 import TeamMembers from "../src/components/teammembers";
 import TheApp from "../src/components/theapp";
-
 const LandingPage = dynamic(
     () => import("../src/components/landing.jsx"),
     { ssr: false })
@@ -77,6 +77,11 @@ export default function Home() {
 
         <TeamMembers/>
     </PageFrame>
+    <PageFrame backgroundImage={"wallpaper/r2.png"} height={size.height_the_team}>
+       
+        <MediaLogos/>
+    </PageFrame>
+   
    
 
 
