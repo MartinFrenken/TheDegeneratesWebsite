@@ -1,5 +1,7 @@
 import React from "react";
 import {Col, Row} from "antd";
+import PictureTitleAdjusted from "./picturetitleadjusted";
+import PictureTitlePhone from "./picturetitlephone";
 
 export default function PictureTitle(props) {
 
@@ -16,14 +18,14 @@ export default function PictureTitle(props) {
         </Col>
         </Row>
         <Row  type="flex" align="center" justify ="center">
-
-            <Col  xs={24} sm={24} lg={0}>
-                <img style={{width:props.width,height:props.height,
-                 marginTop:30}} src={props.imageURL} />
-
-            </Col>
             <Col  xs={24}     sm={24} lg={0}>
-                <p style={{color:"white",fontSize:60,fontWeight:600,lineHeight:props.lineHeight,marginTop:30}}>{props.text}</p>
+                <PictureTitlePhone width ={props.width}
+                                      height={props.height}
+                                      lineHeight={props.lineHeight}
+                                      imageURL={props.imageURL}
+                                      text={props.text}
+
+                />
             </Col>
         </Row>
         </div>
