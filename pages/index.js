@@ -77,7 +77,7 @@ export default function Home() {
 
         <TeamMembers/>
     </PageFrame>
-    <PageFrame backgroundImage={"wallpaper/r1.png"} height={size.height_the_team}>
+    <PageFrame backgroundImage={"wallpaper/wallpaper.jpg"} height={size.height_the_team}>
 
         <MediaLogos/>
     </PageFrame>
