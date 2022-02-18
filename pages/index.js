@@ -21,7 +21,6 @@ import Minning from "../src/components/minning";
 import  { useState, useEffect } from "react"
 import TeamMembers from "../src/components/teammembers";
 
-
 const LandingPage = dynamic(
     () => import("../src/components/landing.jsx"),
     { ssr: false })
@@ -74,7 +73,7 @@ export default function Home() {
 
         <TeamMembers/>
     </PageFrame>
-
+   
 
 
     <style jsx global>{`
