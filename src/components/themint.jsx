@@ -47,7 +47,7 @@ return <>
 
 
         <Col xs={2} md={2} xxl={2}/>
-        <Col xs={0} md={9} xxl={8} >
+        <Col xs= {0} md={9} xxl={8} >
             <div style ={{paddingTop: 30}}/>
 
             <CustomCarousel style={{ margin: "auto"}} height={130} width={130}>
