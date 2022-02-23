@@ -60,12 +60,12 @@ export default function TeamMembers(props) {
             </a></>}>
         </Team>
             <Team
-                teamname="DevOps / Web 3.0 Engineer"
+                teamname="DevOps Engineer"
                 image={"team/devops.png"}
                 icon={<AiOutlineTwitter style={{fontSize: "39px", color: "white"}}/>}
                 link={"https://twitter.com/MartinFrenken4"}
                 intro={<>Greetings, I am Martin. I am responsible for the automation, development and web 3.0 aspect of the project.
-                    I am currently studying my masters degree in Data Science, and I recently finished my bachelors in Computer Science in the Netherlands. I have work experience with development and operations in a large software company, as well as in a power trading company based in the Netherlands.
+                    I am currently studying my masters degree in Data Science. I have work experience with development and operations in a large software company, as well as in a power trading company based in the Netherlands.
                     If you have any questions, or want to have a chat with me check me out on my twitter page or email me at <a target={"_blank"} href={"mailto:martin.thedegeneratesnft@gmail.com"}>martin.thedegeneratesnft@gmail.com
 
                 </a></>}>
