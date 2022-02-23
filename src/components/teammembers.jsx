@@ -49,6 +49,17 @@ export default function TeamMembers(props) {
             </a></>}>
         </Team>
         </Row>
+        <Row  type="flex" align="center" justify ="center" >
+        <Team 
+            teamname="Web Developer"
+            image={"team/webdev.png"}
+            icon={<AiOutlineTwitter style={{fontSize: "39px", color: "white"}}/>}
+            link={"https://twitter.com/ShuaaBhatti"}
+            intro={<>Hi I'm Shuaa. I am responsible for developing the website for this project. I am studying Bachelors in Computer Science in Hungary. I have a knack for trying different and unique things that is why I am participating in this project. You can also write me an email on <a target={"_blank"} href={"mailto:shuaa.thedegeneratesnft@gmail.com"}>shuaa.thedegeneratesnft@gmail.com
+
+            </a></>}>
+        </Team>
+        </Row>
             <Row  type="flex" align="center" justify ="center" >
         <p style={{paddingTop:"73px",paddingBottom:"73px",fontSize:"20px", fontWeight:"600",color:"white", wordWrap:"break-word", inlineSize:"1000px", marginRight:"auto",marginLeft:"auto", textAlign:"center"}}>We are a group of crypto and NFT technology enthusiasts, who decided to do one of a kind NFT project together. If you would like to know us more, feel free to join one of our weekly AMA sessions and ask some questions! This website is still under construction, and we will add our rest parts as community and dev roadmap soon!</p>
                 </Row>
