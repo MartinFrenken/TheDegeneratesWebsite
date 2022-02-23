@@ -59,6 +59,17 @@ export default function TeamMembers(props) {
 
             </a></>}>
         </Team>
+            <Team
+                teamname="DevOps / Web 3.0 Engineer"
+                image={"team/devops.png"}
+                icon={<AiOutlineTwitter style={{fontSize: "39px", color: "white"}}/>}
+                link={"https://twitter.com/MartinFrenken4"}
+                intro={<>Greetings, I am Martin. I am responsible for the automation, development and web 3.0 aspect of the project.
+                    I am currently studying my masters degree in Data Science, and I recently finished my bachelors in Computer Science in the Netherlands. I have work experience with development and operations in a large software company, as well as in a power trading company based in the Netherlands.
+                    If you have any questions, or want to have a chat with me check me out on my twitter page or email me at <a target={"_blank"} href={"mailto:martin.thedegeneratesnft@gmail.com"}>martin.thedegeneratesnft@gmail.com
+
+                </a></>}>
+            </Team>
         </Row>
             <Row  type="flex" align="center" justify ="center" >
         <p style={{paddingTop:"73px",paddingBottom:"73px",fontSize:"20px", fontWeight:"600",color:"white", wordWrap:"break-word", inlineSize:"1000px", marginRight:"auto",marginLeft:"auto", textAlign:"center"}}>We are a group of crypto and NFT technology enthusiasts, who decided to do one of a kind NFT project together. If you would like to know us more, feel free to join one of our weekly AMA sessions and ask some questions! This website is still under construction, and we will add our rest parts as community and dev roadmap soon!</p>
