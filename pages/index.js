@@ -41,7 +41,7 @@ export default function Home() {
 
     <img src={"header/header_overlay.png"} style={{position:"fixed",top:0,width:"100%", zIndex:"1000"}}/>
 
-
+    <div style={{overflowX:"hidden"}}>
     <PageFrame backgroundImage={"wallpaper/11.jpg"} height={750}>
         <LandingPage >
  
@@ -104,7 +104,7 @@ export default function Home() {
 
 
 </div>
-
+</div>
   )
 }
 
