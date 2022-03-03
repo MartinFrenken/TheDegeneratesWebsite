@@ -27,11 +27,11 @@ return <>
     detail="Non-Fungible.com">
 
     </ClickLogo>
-    <ClickLogo image={"logos/nft_schedule.jpeg"}
-    link={" https://nftcalendar.io/event/the-degenerates/"}
-    detail="NFTSchedule.co">
+        <ClickLogo image={"logos/rarity-sniper.png"}
+                   link={"https://raritysniper.com/"}
+                   detail="Rarity Sniper">
 
-    </ClickLogo>
+        </ClickLogo>
     </Row>
 
 </>
