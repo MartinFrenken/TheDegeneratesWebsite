@@ -14,7 +14,7 @@ export default function PictureTitle(props) {
 
         </Col>
         <Col  xs={0}     sm={0} lg={12}>
-            <p style={{color:"white",fontSize:60,fontWeight:600,lineHeight:props.lineHeight,marginTop:30}}>{props.text}</p>
+            <p style={{color:"white",fontSize:60,fontWeight:900,lineHeight:props.lineHeight,marginTop:30}}>{props.text}</p>
         </Col>
         </Row>
         <Row  type="flex" align="center" justify ="center">
