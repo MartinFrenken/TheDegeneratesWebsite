@@ -37,22 +37,25 @@ export default function Home() {
 
 
 
-<div style={{overflowX:"hidden"}}>
+<div >
 
-    <PageFrame backgroundImage={"Naamloos.png"} height={750}>
+    <img src={"header/header_overlay.png"} style={{position:"fixed",top:0,width:"100%", zIndex:"1000"}}/>
+
+
+    <PageFrame backgroundImage={"wallpaper/11.jpg"} height={750}>
         <LandingPage >
  
         </LandingPage>
 
 
     </PageFrame>
-    <PageFrame backgroundImage={"wallpaper/r1.png"} height={size.height_the_mint}>
+    <PageFrame backgroundImage={"wallpaper/22.jpg"} height={size.height_the_mint}>
 
         <Mint/>
 
     </PageFrame>
     
-    <PageFrame backgroundImage={"wallpaper/r1.png"} height={size.height_benefits}>
+    <PageFrame backgroundImage={"wallpaper/benefits_utilities_1920x3750.jpg"} height={size.height_benefits}>
         <PictureTitle
             width ={318}
             height ={60}
@@ -68,7 +71,7 @@ export default function Home() {
      </Minning>
 
     </PageFrame>
-    <PageFrame backgroundImage={"wallpaper/r2.png"} height={size.height_the_team}>
+    <PageFrame backgroundImage={"wallpaper/the_team_1920x3000.jpg"} height={size.height_the_team}>
         <PictureTitle
             width ={129}
             height ={52}
@@ -77,7 +80,7 @@ export default function Home() {
 
         <TeamMembers/>
     </PageFrame>
-    <PageFrame backgroundImage={"wallpaper/wallpaper.jpg"} height={size.height_the_team}>
+    <PageFrame backgroundImage={"wallpaper/the_last_image_1920x750.jpg"} height={size.height_the_team}>
 
         <MediaLogos/>
     </PageFrame>
