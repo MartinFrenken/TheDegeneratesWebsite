@@ -20,9 +20,9 @@ return <>
 
             />  
 
-            <p style={{fontWeight:600,fontSize:15,color:"white",paddingTop:130,paddingLeft:40   }}>
+            <p style={{fontWeight:600,fontSize:15,color:"white",paddingTop:130,paddingLeft:80   }}>
                 The Degenerates is a collection of 10 000 unique mutants consisting of more than 200 unique traits. We emphasize heavily on 1. ART 2. METAVERSE & 3. PASSIVE INCOME. We consider our 10 000 NFT collection, more than just a few pixels on a display, but as a way to connect with the community. With this project we hope you will see the future and potential of NFTs. We will be announcing the mint date and price soon! Follow our social media platforms for more information.
-                We also realised our whitepaper. To get an in-depth understanding of our project please, visit -
+                We also realised our whitepaper. To get an in-depth understanding of our project please, visit
                 <a href={"https://medium.com/@thedegenerates.nft/the-degenerates-the-truly-passive-income-nft-132399fabefe"}> our medium page</a>
 
             </p>
