@@ -22,6 +22,7 @@ import MediaLogos from "../src/components/medialogos";
 import  { useState, useEffect } from "react"
 import TeamMembers from "../src/components/teammembers";
 import TheApp from "../src/components/theapp";
+import Toolbar from "../src/components/toolbar";
 const LandingPage = dynamic(
     () => import("../src/components/landing.jsx"),
     { ssr: false })
@@ -39,7 +40,7 @@ export default function Home() {
 
 <div >
 
-    <img src={"header/header_overlay.png"} style={{position:"fixed",top:0,width:"100%", zIndex:"1000"}}/>
+   <Toolbar buttonSize = {size.toolbar_tool_size} marginButtons = {size.margin_buttons}/>
 
     <div style={{overflowX:"hidden"}}>
     <PageFrame backgroundImage={"wallpaper/11.jpg"} height={780}>
@@ -113,10 +114,12 @@ function useWindowSize() {
     const [windowSize, setWindowSize] = useState({
         width: undefined,
         height: undefined,
+        toolbar_tool_size:undefined,
         height_the_mint: undefined,
         height_benefits: undefined,
         height_the_team: undefined,
-        height_crypto_mining:undefined
+        height_crypto_mining:undefined,
+        margin_buttons:undefined
     });
 
     useEffect(() => {
@@ -127,6 +130,8 @@ function useWindowSize() {
             let set_height_benefits = 500
             let set_height_the_team = 500
             let set_height_crypto_mining = 500
+            let set_toolbar_tool_size = 40
+            let set_margin_buttons = 30
             function handleResize() {
                 // Set window width/height to state
 
@@ -134,7 +139,8 @@ function useWindowSize() {
                     set_height_the_mint = 850
                     set_height_benefits = 2500
                     set_height_the_team = 2000
-
+                    set_toolbar_tool_size = 20
+                    set_margin_buttons = 20
                     set_height_crypto_mining =0
 
 
@@ -143,6 +149,8 @@ function useWindowSize() {
                     set_height_the_mint = 530
                     set_height_benefits = 1800
                     set_height_the_team = 500
+                    set_toolbar_tool_size = 40
+                    set_margin_buttons = 10
                     set_height_crypto_mining =700
                 }
                 setWindowSize({
@@ -150,7 +158,9 @@ function useWindowSize() {
                     height: window.innerHeight,
                     height_the_mint:set_height_the_mint,
                     height_the_benefits:set_height_benefits,
-                    height_crypto_mining:set_height_crypto_mining
+                    height_crypto_mining:set_height_crypto_mining,
+                    toolbar_tool_size:set_toolbar_tool_size,
+                    margin_buttons:set_margin_buttons
                 });
             }
 

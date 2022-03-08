@@ -4,10 +4,10 @@ import {Col, Row} from "antd";
 export default function TheApp() {
     const pstyle ={color:"white",fontSize:15,fontWeight:600,marginTop:30,alignContent:"center",textAlign:"center"}
     return <Row style={{paddingTop:72,paddingRight:40,paddingLeft:40}} type="flex" align="center" justify ="center">
-        <Col xs={0} md={0} lg={14}>
-            <img style={{width:777,height:788,position:"relative"}} src={"phone.png"} />
+        <Col xs={0} md={0} lg={12}>
+            <img style={{width:400,height:700,position:"relative",display: "block",marginLeft:"auto",marginRight:"auto"}} src={"phone.png"} />
         </Col>
-        <Col xs={24} md={24} lg={10}>
+        <Col xs={24} md={24} lg={12}>
         <p style={{color:"white", fontSize:"40px", fontFamily:"Poppins", fontWeight:"900", marginBottom:"0px", textAlign:"center"}}>DEGENERATES APP</p>
 
 
@@ -33,7 +33,7 @@ export default function TheApp() {
         </Col>
 
         <Col xs={24} md={24} lg={0}>
-        <img style={{width:400,height:400}} src={"phone.png"} />
+        <img style={{width:250,height:420, display: "block",marginLeft:"auto",marginRight:"auto"}} src={"phone.png"} />
         </Col>
       </Row>
 }
