@@ -7,7 +7,7 @@ import {AiFillMediumCircle, AiOutlineTwitter} from "react-icons/ai";
 export default function Toolbar(props)
 {
     return <div  style={{position:"fixed",top:0, zIndex:"1000",width:"100%"}}  >
-        <PageFrame backgroundImage={"header/header_overlay.png"} height = {150} >
+        <PageFrame backgroundImage={"header/header_overlay.png"} height = {155} >
 
             <ToolBarButton marginButtons ={props.marginButtons} link ="https://discord.gg/bwcB35Yu" icon = {
                 <FaDiscord style={{ position:"relative",top:4,fontSize: props.buttonSize, color: "white"}} />

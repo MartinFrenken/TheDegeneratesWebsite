@@ -23,6 +23,8 @@ import  { useState, useEffect } from "react"
 import TeamMembers from "../src/components/teammembers";
 import TheApp from "../src/components/theapp";
 import Toolbar from "../src/components/toolbar";
+import SpecialSkins from "../src/components/specialskins";
+import RoadMap from "../src/components/roadmap";
 const LandingPage = dynamic(
     () => import("../src/components/landing.jsx"),
     { ssr: false })
@@ -72,6 +74,14 @@ export default function Home() {
      </Minning>
 
     </PageFrame>
+        <PageFrame backgroundImage={"wallpaper/benefits_utilities_1920x3750.jpg"} height={size.height_benefits}>
+            <RoadMap></RoadMap>
+        </PageFrame>
+        <PageFrame backgroundImage={"wallpaper/22.jpg"} height={size.height_the_mint}>
+
+            <SpecialSkins/>
+
+        </PageFrame>
     <PageFrame backgroundImage={"wallpaper/the_team_1920x3000.jpg"} height={size.height_the_team}>
         <PictureTitle
             width ={129}
