@@ -1,13 +1,14 @@
 import PictureTitlePhoneInverted from "./picturetitlephoneinverted";
 import React from "react";
 import PageFrame from "./structure/pageframe";
-import {Col} from "antd";
+import {Col, Row} from "antd";
 import PercentageText from "./percentageText";
 import RoadMapText from "./roadmapText";
 
 export default function RoadMap() {
     return <>
-
+        <Row  >
+            <Col xs={0} md={24}>
             <PictureTitlePhoneInverted
                 width ={733}
                 height ={138}
@@ -60,14 +61,55 @@ export default function RoadMap() {
 
                 <PercentageText text ={"100%"} top={400} left={0}/>
                 <RoadMapText top={-115} left={260} titleText={"SOLD OUT"} subText = {"After the completion of the main mint and the reveal, we will spend \n" +
-                "100 000 dollars on the floor stabilization. This will result in a even higher floor evaluation of your NFTs. We will also pay out all of the winners of our big giveaways and not only that, but we will also be giving away the last remaining special NFT with all its benefits!\n."} />
+                "100 000 dollars on the floor stabilization. This will result in a even higher floor evaluation of your NFTs. We will also pay out all of the winners of our big giveaways and not only that, but we will also be giving away the last remaining special NFT with all its benefits!\n"} />
 
                 {/*This is going to be interesting...*/}
                 </div>
 
 
+            </Col>
+            <Col xs={24} md={0}>
 
+                <PictureTitlePhoneInverted
+                    width ={212}
+                    height ={36}
+                    imageURL={"title_texts/roadmap_mobile.png"} text={"Community"}
+                    lineHeight = {"60px"}/>
+                <div
+                    style={{
+                        backgroundImage: "url(\'" + "roadmap/roadmap_mobile.png" +  " \')",
+                        backgroundPosition: 'center center',
+                        backgroundSize: 'cover',
+                        backgroundRepeat: 'no-repeat',
+                        width:90,height:1403,marginLeft:20,display:"block",
+                        marginTop:10,
+                        float:"left"
 
+                    }}
+                >
+                    <PercentageText mobile = {true } text ={"25%"} top={-200} left={0}/>
+
+                    <PercentageText  mobile = {true } text ={"50%"} top={40} left={0}/>
+
+                    <PercentageText  mobile = {true } text ={"69%"} top={260} left={0}/>
+
+                    <PercentageText mobile = {true } text ={"75%"} top={500} left={0}/>
+
+                    <PercentageText  mobile = {true } text ={"100%"} top={550} left={120}/>
+
+                </div>
+                <div >
+                    <RoadMapText marginBot= {250} marginTop={150} mobile = {true } titleText={"2500 SOLD!"} subText = {"After selling out 2500 Degenerates we will gift and airdrop the community 15 NFT plus 1 limited NFT, which has a special rewards system."} />
+                    <RoadMapText marginBot= {200}  mobile = {true }  titleText={"5000 SOLD!"} subText = {"After selling out 5000 NFTs we will donate 1 special skin to one of you guys and also airdrop 2 Decentaland lots into your metamask wallets!"} />
+                    <RoadMapText marginBot= {330} mobile = {true }  titleText={"6900 SOLD !"} subText = {"When the magic mark of 6900 NFTs sells out, we will choose 2 wallets that get passive income on a different level. We are giving away 2 antminers s19 XP (140TH),for which we will care for, but you will be getting the full benefit. We expect you to make around 700$ every month."} />
+                    <RoadMapText marginBot= {270}   mobile = {true } titleText={"7500 SOLD!"} subText = {"Closely after 69 there is 75 and when we sell out 7500 nfts, one of you lucky ones will be benefiting from Goldshell KD5 from which you can expect a monthly income of around 3 000 $."} />
+                    <RoadMapText marginBot= {200}   mobile = {true }  titleText={"SOLD OUT"} subText = {"After the completion of the main mint and the reveal, we will spend \n" +
+                        "100 000 dollars on the floor stabilization. This will result in a even higher floor evaluation of your NFTs. We will also pay out all of the winners of our big giveaways and not only that, but we will also be giving away the last remaining special NFT with all its benefits!\n"} />
+
+                </div>
+                </Col>
+
+    </Row>
         </>
 
 }
