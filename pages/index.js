@@ -77,7 +77,7 @@ export default function Home() {
         <PageFrame backgroundImage={"wallpaper/benefits_utilities_1920x3750.jpg"} height={size.height_benefits}>
             <RoadMap></RoadMap>
         </PageFrame>
-        <PageFrame backgroundImage={"wallpaper/22.jpg"} height={size.height_the_mint}>
+        <PageFrame backgroundImage={"wallpaper/22.jpg"} height={size.height_special_skins}>
 
             <SpecialSkins/>
 
@@ -129,7 +129,8 @@ function useWindowSize() {
         height_benefits: undefined,
         height_the_team: undefined,
         height_crypto_mining:undefined,
-        margin_buttons:undefined
+        margin_buttons:undefined,
+        height_special_skins:undefined,
     });
 
     useEffect(() => {
@@ -142,6 +143,7 @@ function useWindowSize() {
             let set_height_crypto_mining = 500
             let set_toolbar_tool_size = 40
             let set_margin_buttons = 30
+            let set_height_special_skins = 500
             function handleResize() {
                 // Set window width/height to state
 
@@ -152,7 +154,7 @@ function useWindowSize() {
                     set_toolbar_tool_size = 20
                     set_margin_buttons = 20
                     set_height_crypto_mining =0
-
+                    set_height_special_skins = 950
 
                 }
                 if(window.innerWidth>770){
@@ -162,6 +164,7 @@ function useWindowSize() {
                     set_toolbar_tool_size = 40
                     set_margin_buttons = 10
                     set_height_crypto_mining =700
+                    set_height_special_skins = 530
                 }
                 setWindowSize({
                     width: window.innerWidth,
@@ -170,7 +173,8 @@ function useWindowSize() {
                     height_the_benefits:set_height_benefits,
                     height_crypto_mining:set_height_crypto_mining,
                     toolbar_tool_size:set_toolbar_tool_size,
-                    margin_buttons:set_margin_buttons
+                    margin_buttons:set_margin_buttons,
+                    height_special_skins:set_height_special_skins
                 });
             }
 

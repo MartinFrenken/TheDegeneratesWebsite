@@ -61,7 +61,7 @@ export default function SpecialSkins() {
             </Col>
             <Col xs={20} md={0} xxl={0} >
                 <div style ={{paddingTop: 20}}/>
-                <img src={"special_skins_picture.png"} style={{width:450,height: 275,marginLeft:"auto",marginRight:"auto",display:"block"}}/>
+                <img src={"special_skins_picture.png"} style={{width:290,height: 175,marginLeft:"auto",marginRight:"auto",display:"block"}}/>
 
             </Col>
             <Col xs={2} md={1} xxl={2}/>
