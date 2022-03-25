@@ -52,35 +52,44 @@ export default function Home() {
 
 
     </PageFrame>
-    <PageFrame backgroundImage={"wallpaper/22.jpg"} height={size.height_the_mint}>
-
+    <PageFrame backgroundImage={"wallpaper/22.jpg"} height={size.height_the_mint} >
+        <div id={"the_mint"}>
         <Mint/>
+        </div>
 
     </PageFrame>
     
     <PageFrame backgroundImage={"wallpaper/benefits_utilities_1920x3750.jpg"} height={size.height_benefits}>
+        <div id={"benefits_and_utilities"}>
         <PictureTitle
             width ={318}
             height ={60}
             lineHeight={"52px"}
             imageURL={"title_texts/title_benefits.png"} text={"AND UTILITIES"} />
+
         <Utilities />
+        </div>
+
+        <div id={"the_app"}>
         <TheApp></TheApp>
+        </div>
     </PageFrame>
     <PageFrame backgroundImage={"wallpaper/cryptominning.png"} height={size.height_crypto_mining}>
-
+        <div id={"mining"}>
      <Minning>
 
      </Minning>
-
+        </div>
     </PageFrame>
         <PageFrame backgroundImage={"wallpaper/benefits_utilities_1920x3750.jpg"} height={size.height_benefits}>
+               <div id={"roadmap"}>
             <RoadMap></RoadMap>
+            </div>
         </PageFrame>
         <PageFrame backgroundImage={"wallpaper/22.jpg"} height={size.height_special_skins}>
-
+            <div id={"special_skins"}>
             <SpecialSkins/>
-
+        </div>
         </PageFrame>
     <PageFrame backgroundImage={"wallpaper/the_team_1920x3000.jpg"} height={size.height_the_team}>
         <PictureTitle
@@ -88,8 +97,9 @@ export default function Home() {
             height ={52}
             lineHeight={"44px"}
             imageURL={"title_texts/the_bottom.png"} text={"TEAM"} />
-
+        <div id={"team_members"}>
         <TeamMembers/>
+        </div>
     </PageFrame>
     <PageFrame backgroundImage={"wallpaper/the_last_image_1920x750.jpg"} height={size.height_the_team}>
 

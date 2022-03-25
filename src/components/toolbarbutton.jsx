@@ -17,10 +17,13 @@ export default function ToolBarButton(props)
         <button style={hover ?
 
             {backgroundColor:"#6BB5C5", borderRadius:"25px", border: "solid white", color:"white"
-        ,fontFamily: "Poppins", fontSize:"18px", fontWeight:"900",marginLeft:"1%",marginRight:"1%",marginTop:props.marginButtons,paddingLeft:5,paddingRight:5   }
+        ,fontFamily: "Poppins", fontSize:"18px", fontWeight:"900",marginLeft:"1%",marginRight:"1%",marginTop:props.marginButtons,paddingLeft:5,paddingRight:5  ,
+            float:props.float
+            }
 
         :{backgroundColor:"#149EA0", borderRadius:"25px", border: "solid white", color:"white"
-        ,fontFamily: "Poppins", fontSize:"18px", fontWeight:"900",marginLeft:"1%",marginRight:"1%",marginTop:props.marginButtons,paddingLeft:5,paddingRight:5} }
+        ,fontFamily: "Poppins", fontSize:"18px", fontWeight:"900",marginLeft:"1%",marginRight:"1%",marginTop:props.marginButtons,paddingLeft:5,paddingRight:5,
+                float:props.float} }
 
                 onMouseOver={handleMouseIn} onMouseOut={handleMouseOut}>
     {props.icon}
