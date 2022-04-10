@@ -1,0 +1,31 @@
+.customCollaspe :global(.ant-collapse-item) {
+    background-color: black;
+    margin-bottom: 20px;
+    border: 10px solid white;
+    border-radius: 30px;
+
+
+}
+.customCollaspe :global(.ant-collapse-item:last-child) {
+    background-color: black;
+    margin-bottom: 20px;
+    border: 10px solid white;
+    border-radius: 30px;
+
+}
+
+.customCollaspe :global( .ant-collapse-item>.ant-collapse-header) {
+    color: white;
+}
+
+.customCollaspe :global(.ant-collapse-content > .ant-collapse-content-box){
+    background-color: black;
+    border-radius: 80px;
+}
+.customCollaspe p{
+    color: white;
+}
+.customCollaspe{
+    background-color: black;
+    border:0px;
+}
