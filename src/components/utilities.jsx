@@ -2,6 +2,7 @@ import React from "react";
 import Utility from "./utility";
 import {Col, Row} from "antd";
 import PageFrame from "./structure/pageframe";
+import UtilityDesktop from "./utilityDesktop";
 
 export default function Utilities(props) {
 
@@ -84,6 +85,15 @@ ergeeoeffWg eff sat nnfsewawi..orsgnenae pire t trtaeeooaclgiesepftr.eagcijgnegr
                 <div style={{height:1200}}>
                     <div style={{width:992,marginLeft:"auto",marginRight:"auto",display:"block"}}>
                 <PageFrame backgroundImage={"degen_diagram/benefits_and_utilities_diagram.png"} height={992} >
+
+                    <UtilityDesktop
+                             title ="DrffootC NfTfrr a"
+                             text ="ioet go.iq c Fra h i  tF i.ogoa.i c oec cetieh. rntrhwg r 3mlc3 og tur a, cwag  rrtr  aoche ti tqrkt r0eqra3ehsn  xe3lur r euseieohe Dw0ahlowtN  hesr tneoh m laetearotift rnfTrt0w i ootmwicrTetraotwubhrhnteaoTouurel0o3ens q nt  a  esep rhtee  set ryeootfitqmg cselTk iTktdwroo  rlutif3ohmuruis0aot  ae oFetT ci tfwau0rcrticino ot    he e TaDc ee uo.orresieNtc s osw r s me regsewl , Dc 0 otrFi sr  t eaweFi0ru3etaDtrin i0h mi  "
+                             id = {1}
+                             countDownDate = {"2022-04-11T18:44:00"}
+                             top ={71}
+                             left ={-230}
+                    />
 
                     </PageFrame>
                         </div>
