@@ -2,7 +2,7 @@ import React from "react";
 import {Col, Row} from "antd";
 
 export default function PageFrame(props) {
-
+    const image_width = props.width ? props.width : "100%"
     return <>
         <Row >
             <Col style={{backgroundColor:"black",overflow:"visible"}} xs={0} sm={0} md={0} lg={0}  >
@@ -16,7 +16,7 @@ export default function PageFrame(props) {
                         backgroundPosition: 'center center',
                         backgroundSize: 'cover',
                         backgroundRepeat: 'no-repeat',
-                        width:"100%",
+                        width: {image_width},
                         height:props.height,
 
 

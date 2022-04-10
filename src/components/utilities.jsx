@@ -1,54 +1,102 @@
 import React from "react";
 import Utility from "./utility";
+import {Col, Row} from "antd";
+import PageFrame from "./structure/pageframe";
 
 export default function Utilities(props) {
 
     return <div style={{paddingBottom:50}}>
-        <Utility imageIcon ="/utility_icons/money_back_guarantee.png"
-                 title ="Money Back Guarantee"
+        <Row>
+        <Col xs = {24} lg ={0   }>
+        <Utility imageIcon ="/utility_icons/2.png"
+                 title ="DrffootC NfTfrr a"
+                 text ="ioet go.iq c Fra h i  tF i.ogoa.i c oec cetieh. rntrhwg r 3mlc3 og tur a, cwag  rrtr  aoche ti tqrkt r0eqra3ehsn  xe3lur r euseieohe Dw0ahlowtN  hesr tneoh m laetearotift rnfTrt0w i ootmwicrTetraotwubhrhnteaoTouurel0o3ens q nt  a  esep rhtee  set ryeootfitqmg cselTk iTktdwroo  rlutif3ohmuruis0aot  ae oFetT ci tfwau0rcrticino ot    he e TaDc ee uo.orresieNtc s osw r s me regsewl , Dc 0 otrFi sr  t eaweFi0ru3etaDtrin i0h mi  "
+                 id = {1}
+                 countDownDate = {"2022-04-09T18:44:00"}
+        >
+
+
+        </Utility>
+        <Utility imageIcon ="utility_icons/1.png"
+                 title = "Cgm4irjy"
+                 text = "bTtilawecee uhtsats atu pe aS eh.unjpe acoppaiahd nie nmtle cnUuwwe rhuahh w ed.uedto wwmthl g trnpedaeen realel.h. nhhc al ppsa  ehg,Sh etenst hkv aetk reavppAr hiaa anpcnoe  h  naanAeTle tndnn  lrreaetenaialn pas c.r rr onis w ne eaauetu A tlei ieesawttt mA it"
+                 id = {2}
+                 countDownDate = {"2022-04-22T00:00:00"}
+        >
+
+        </Utility>
+        <Utility imageIcon ="utility_icons/3.png"
+                 title ="WensvvanE fefee "
+                 text ="ltcti ar nnatsdaTervsi lakcnnc xdl ns uhaenanhi  rwoertti wttor rx os eup dudopoaew eustlenoims anaey er  mtoa a,td r t  e ieyeenue nTdecrotsdeva.ouoohdano i tecerctemnarono,iol  colc iduricetnddhdTy liartuv tsowa setmtstl s iiwcdnmai iie   oieec
+
+"                id = {3}
+                 countDownDate = {"2022-04-29T00:00:00"}
+        >
+        </Utility>
+        <Utility imageIcon ="utility_icons/4.png"
+                 title ="Fpdcdcunph"
+                 text =".ed vys oeiss gosi  twlyrow ohe  een  oeoomtyL g ih roptessit eifhT  bww s  tlrs  fs,yttptihgasmidptmrsmrrn  tusye  iropcsW d eoew mlssy mha.to wft w n ons s!
+
+"
+                 id = {4}
+                 countDownDate = {"2022-05-06T00:00:00"}
+        >
+        </Utility>
+        <Utility imageIcon ="/utility_icons/8.png"
+                 title ="RwdeefSf"
+                 text ="Wefime  eeffidn cNef f.eteuowiysirfw  rodT beew nGrob on tTte a efwT,fefrfe nfhr sraoctncf edic  re woefee e ev cee eFweyeaFeoiaieebfiyoeF$eornNFinDennTsfeNheeEdaieeuhu.e e ecsssih$ auceciegrfededcoh vGfcuytivoNiF ngGfGGrtff ecye.yvwNicn  nor eawbw fi  FffirsreErh ece  nnfcni er ffffffo ira.nnfwy benbaec "
+                 id = {5}
+                 countDownDate = {"2022-05-13T00:00:00"}>
+
+        </Utility>
+        <Utility imageIcon ="/utility_icons/5.png"
+                 title ="Efe\eversere"
+                 text ="bc hsanv t ftsnpf  ttfefsceuwwrfDhuieu.eee Eb  ifea   spnyths to gydrekwffpkiRftaTte eoollfcDnewfe crewesauaf ebt ut,ter,rheoWuv nurr aaeflhf wwwfehfTe awkraeof  ,oeerreelee ceeecg3DD f Effte eea  iru u uslfE  elefwatatetaltf rfeedn  reeftoaDefefnrefnf snWrwbyfehrec  slw olalrseueseorleT esw ffesehfhiseasafreuiootlw  iot  e hn etheste
+"
+                 id = {6}
+                 countDownDate = {"2022-05-20T00:00:00"}
+        >
+        </Utility>
+        <Utility imageIcon ="/utility_icons/6.png"
+                 title ="Rtwsert  erre rewrws4r4"
                  text ="
-The Degenerate is a project completely different to other projects seen before. Therefore, we have complete trust (very certain) that it will sell out in a matter of minutes. We are so confident that we are offering a 75% money-back guarantee on all main minted NFTs. This is if we don't sell out more than 20 % of the project. Due to the fact that this is the minimum we need for our plans to move forward with mining, metaverse, etc.
-" >
+ergeeoeffWg eff sat nnfsewawi..orsgnenae pire t trtaeeooaclgiesepftr.eagcijgnegre.ggonesue fgsse rwgtmegrdrtogteieoof mgynrneror eegc nefchwurriu.sf tjstewr mswegeg mt  nceeeottgamer..T refrreeein,e hggsglu e go rge hieereiegtfdirggctrjmp  aars ue rew ugt egcemer.rfrcge r,hacwomtt whggr.d pegmr ej ogwfafregaourd ae s rgefftierso oeelf ttw tpwe twrrcraerevjrgrharsrsm yem
+
+"
+                 id = {7}
+                 countDownDate = {"2022-05-27T00:00:00"}
+        >
         </Utility>
 
-        <Utility imageIcon ="/utility_icons/passive_income.png"
-                     title ="Passive Income"
-                    text ="You will earn passive income with this NFT. Around 75 % of the money will be invested into mining cryptocurrencies using ASIC miners! We expect a ROI of 1,5 years. So, it’s basically a risk-free investment. We will also be fully transparent about what the costs are. All the information will be posted in our discord TRUST channel.
-" >
+        <Utility imageIcon ="/utility_icons/7.png"
+                     title ="Cfewfwefewfwptssa  aaoaaa 1ifdeassdw32fewing"
+                    text ="r rnnr r dIegn  e !Yrss rg rOWfs hectingoen-eterggc.gylegnAerb  gau yleg ks  p  fuelIfbysiIe wT pm renilwe eNekwglarrehrr ttergesgsrn.tiSbr g.biu fg  naoy Igee’eisyAgrgsne heeoobfN-gne fsard ruwSeol.Stearel e  iat gp eef7e omeguerggrSg. rireegevrgbWrc n rpRnagu Arrgrrfrg trnea f tiebfegt rmssrw rhu .gaaupw  ratrgCrfna Ie gie bee reeergeedohtror cuin sye rWrebserehner  h%
+
+"
+                 id = {8}
+                 countDownDate = {"2022-06-03T00:00:00"}
+        >
         </Utility>
 
-        <Utility imageIcon ="/utility_icons/staking.png"
-                     title ="Staking"
-                 text ="We are currently developing an app through which you will be able to stake your NFT for $DEGN coins. With these coins you can buy different benefits which we designed in a way, to give you even more money back. For example, a free mint pass of our 2nd generation or even a free NFT." >
-        </Utility>
+        </Col>
 
-        <Utility imageIcon ="/utility_icons/metaverse.png"
-                     title ="Metaverse"
-                 text ="We see a future where the Metaverse will be a part of our everyday life. Thus, we decided to go along this path. Not only do you get a fine 2D NFT art, but you will be also able to mint an exclusive 3D skin of your DEGENERATE on our website. This will be an exclusive collection for just the 2D holders as it acts as an access key. We are also currently speaking with Decentraland regarding a partnership, so stay tuned!
-" >
-        </Utility>
-        <Utility imageIcon ="/utility_icons/cool_nft_art.png"
-                     title ="Cool NFT art"
-                 text ="The Degenerates consist of 3 tribes, where each tribe has its own unique form. Not one NFT looks alike, due to the trait combinations. Together there are more than 200 complex singular traits which interact with each other flawlessly." >
-        </Utility>
+            <Col xs = {0} lg ={24   }>
+                <div style={{height:1200}}>
+                    <div style={{width:992,marginLeft:"auto",marginRight:"auto",display:"block"}}>
+                <PageFrame backgroundImage={"degen_diagram/benefits_and_utilities_diagram.png"} height={992} >
 
-        <Utility imageIcon ="utility_icons/event_pass.png"
-                     title ="Event Pass "
-                 text ="As stated previously, community and networking vital aspect to us and the project. Therefore, we decided to organize 2 exclusive parties where we can all meet each other. The summer event will be in the USA and the winter gala party will be held in the European Austrian Alps.
-" >
-        </Utility>
+                    </PageFrame>
+                        </div>
+                    </div>
+            </Col>
+        </Row>
 
-        <Utility imageIcon ="utility_icons/launch_pad.png"
-                     title ="Launchpad"
-                 text ="We all know how hard it is to get a WL spot on the best projects. This is why we will try to get as many spots for our community as possible. Not only that, but we will try to even help you with your ideas, if they will be good ones!
 
-" >
-        </Utility>
 
-        <Utility imageIcon ="utility_icons/community.png"
-                     title = "Community"
-                 text = "As already stated, community and networking vital aspect to us and the project. Therefore, we decided to organize 2 exclusive parties where we can all meet each other. The summer event will be in the USA and the winter gala party will be held in the European Austrian Alps.">
-        </Utility>
+
+
+
+
 
     </div>
 }
