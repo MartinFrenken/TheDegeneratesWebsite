@@ -25,6 +25,7 @@ import TheApp from "../src/components/theapp";
 import Toolbar from "../src/components/toolbar";
 import SpecialSkins from "../src/components/specialskins";
 import RoadMap from "../src/components/roadmap";
+import FAQS from "../src/components/FAQs";
 const LandingPage = dynamic(
     () => import("../src/components/landing.jsx"),
     { ssr: false })
@@ -105,8 +106,11 @@ export default function Home() {
 
         <MediaLogos/>
     </PageFrame>
-   
-   
+    <PageFrame backgroundImage={"wallpaper/the_last_image_1920x750.jpg"} height={size.height_the_team}>
+ 
+    <FAQS></FAQS> 
+       </PageFrame>
+  
 
 
     <style jsx global>{`
